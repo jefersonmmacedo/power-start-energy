@@ -1,0 +1,112 @@
+
+.AboutCompany {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    margin: 100px 0;
+}
+
+.AboutCompany .boxComany {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    background-color: var(--Primary);
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+}
+
+.AboutCompany .boxComany h5{
+    color: var(--BorderHover);
+}
+
+.AboutCompany .boxComany h1 {
+    color: var(--White);
+    font-weight: 900;
+}
+
+.AboutCompany .boxComany .boxLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: var(--Description);
+    margin-bottom: -100px;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+
+.AboutCompany .boxComany .boxLogo img {
+    height: 90%;
+}
+
+.AboutCompany .textCompany {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 600px;
+    margin: 20px 60px;
+}
+.AboutCompany .textCompany button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: var(--Primary);
+    color: var(--White);
+    border-radius: 20px;
+    margin: 20px 0;
+    border: none;
+    font-size: 14px;
+}
+
+.AboutCompany .textCompany h2 {
+    margin: 5px;
+    font-weight: 700;
+}
+
+.AboutCompany .textCompany h4 {
+margin: 5px;
+font-weight: 400;
+}
+
+@media (max-width: 768px) {
+
+    .AboutCompany {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .AboutCompany .boxComany {
+        height: 200px;
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .AboutCompany .boxComany .boxLogo {
+ 
+        margin-top: 20px;
+        margin-bottom: -100px;
+        margin-left: 200px;
+    }
+
+    .AboutCompany .textCompany {
+        width: 95%;
+        margin: 60px auto;
+    }
+    
+    
+}

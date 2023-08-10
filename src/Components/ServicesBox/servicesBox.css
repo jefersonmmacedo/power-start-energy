@@ -1,0 +1,75 @@
+.ServicesBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ServicesBox .boxUnic {
+    width: 230px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-color: var(--BorderHover);
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.ServicesBox .boxUnic button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 6px;
+    color: var(--White);
+    border: none;
+    background-color: var(--Primary);
+    margin-bottom: -13px;
+    margin-right: 100px;
+    z-index: 3;
+}
+
+.ServicesBox .boxUnic .text {
+    width:100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.ServicesBox .boxUnic .text svg {
+    font-size: 35px;
+    color: var(--Primary);
+    margin: 5px 0
+}
+
+.ServicesBox .boxUnic .text h3 {
+    font-weight: 700;
+    color: var(--Paragraph);
+}
+
+.ServicesBox .boxUnic .text h4 {
+    color: var(--Paragraph);
+    font-weight: 500;
+}
+
+.ServicesBox .boxUnic .image {
+    width:100%;
+    height: 50%;
+}
+
+.ServicesBox .boxUnic .image img {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:0 0 10px 10px ;
+}

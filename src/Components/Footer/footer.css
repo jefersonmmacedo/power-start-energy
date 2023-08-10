@@ -1,0 +1,68 @@
+
+.Footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--BorderInput);
+    margin-top: 100px;
+}
+.Footer .top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding: 20px;
+}
+
+.Footer .top .image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 0;
+  }
+  .Footer .top .image a img {
+    height: 50px;
+  }
+
+
+.Footer .top .icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+   }
+   .Footer .top .icons .unicIconMenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding:5px;
+    background-color: var(--White);
+    color: var(--Primary);
+    border-radius: 6px;
+    margin: 0 3px;
+    border: none;
+    font-size: 16px;
+    text-decoration: none;
+   }
+
+   .Footer .top .icons .unicIconMenu:hover {
+  background-color: var(--Primary);
+  color: var(--White);
+ }
+
+   .Footer .copy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--Primary);
+    color: var(--White);
+    padding: 20px;
+   }

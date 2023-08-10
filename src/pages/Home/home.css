@@ -1,0 +1,21 @@
+.Home {
+    width: 100%;
+}
+.Home .textSections {
+    width: 100%;
+    margin: 150px 0 10px 0;
+    text-align: center;
+}
+
+.Home .textSections h2 {
+ font-weight: 700;
+ color: var(--Description);
+}
+
+@media (max-width: 768px) {
+    .Home .textSections {
+        width: 100%;
+        margin: 20px 0 10px 0;
+        text-align: center;
+    } 
+}
