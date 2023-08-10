@@ -30,8 +30,8 @@ export function AboutCompany() {
                 supermercados e empresas em geral.
                 <br />
                 <br />
-                Entre em contato com nossa equipe.
-                Agenda uma visita para análise preventiva de suas instalações elétricas, garantindo segurança e prevenindo acidentes futuros.    
+                Entre em contato com nossa equipe. <br />
+                Agende uma visita para análise preventiva de suas instalações elétricas, garantindo segurança e prevenindo acidentes futuros.    
             </h4>
             <button onClick={handleContact}>Fale conosco</button>
             </div>
