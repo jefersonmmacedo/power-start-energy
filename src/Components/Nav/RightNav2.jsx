@@ -28,7 +28,7 @@ const UlAdm = styled.ul`
     justify-content: space-between;
     width: 100%;
     padding: 0 20px;
-    border-top: 1px solid var(--Gray);
+    border-top: 1px solid var(--Border);
     height: 50px;
 
  }
@@ -109,7 +109,7 @@ const UlAdm = styled.ul`
     justify-content: center;
     margin: 5px;
     padding: 0px 20px;
-    border-right: 1px solid var(--Gray);
+    border-right: 1px solid var(--Border);
 }
 
 .contact .contactUnic svg {
@@ -241,7 +241,7 @@ const UlAdm = styled.ul`
   justify-content: flex-start;
   width: 100%;
   padding: 0 20px;
-  border-top: 1px solid var(--Gray);
+  border-top: 1px solid var(--Border);
   height: 100%;
 
 }
@@ -454,23 +454,23 @@ const RightNav2 = ({ open }) => {
                 </Link>
               </li> 
               <li className='nav-item'>
-                <Link to='#' >
+                <Link to='/quemsomos' >
               <p>Sobre nós</p>
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link to='#' >
+                <Link to='/servicos' >
                <p>Serviços</p>
                 </Link>
               </li>
                           
-              <li className='nav-item'>
+              {/* <li className='nav-item'>
                 <Link to='#' >
               <p>Como atuamos</p> 
                 </Link>
-              </li> 
+              </li>  */}
               <li className='nav-item'>
-                <Link to='#' >
+                <Link to='/contato' >
               <p>Contato</p> 
                 </Link>
               </li> 

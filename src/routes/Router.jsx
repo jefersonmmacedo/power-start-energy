@@ -1,5 +1,8 @@
 import {Route, Routes, Navigate} from 'react-router-dom';
 import { Home } from '../pages/Home/Home';
+import { About } from '../pages/About/About';
+import { ServicesCompany } from '../pages/ServicesCompany/ServicesCompany';
+import { Contact } from '../pages/Contact/Contact';
 
 function Router () {
         const Local = localStorage.getItem("powerstartenergy");
@@ -12,9 +15,9 @@ function Router () {
     return (
             <Routes>
             <Route path="/" element={<Home />}/>
-            <Route path="/sobre-nos" element={""}/>
-            <Route path="/contato" element={""}/>
-            <Route path="/servicos" element={""}/>
+            <Route path="/quemsomos" element={<About />}/>
+            <Route path="/contato" element={<Contact />}/>
+            <Route path="/servicos" element={<ServicesCompany />}/>
             <Route path="/processos" element={""}/>
 
             <Route path="/"
