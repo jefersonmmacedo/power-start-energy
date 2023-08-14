@@ -14,9 +14,9 @@ export function Footer() {
             </div>
 
             <div className="icons">
-                <a className="unicIconMenu" href="https://instagra.com" target='_Blank'><IoLogoInstagram /></a>
-                <a className="unicIconMenu" href="https://facebook.com" target='_Blank'><IoLogoFacebook /></a>
-                <a className="unicIconMenu" href="https://linkedin.com" target='_Blank'><IoLogoLinkedin /></a>
+                <a className="unicIconMenu" href="https://instagram.com/powerstartenergy" target='_Blank'><IoLogoInstagram /></a>
+                <a className="unicIconMenu" href="https://facebook.com/powerstartenergy" target='_Blank'><IoLogoFacebook /></a>
+                <a className="unicIconMenu" href="https://linkedin.com/company/power-start-energy" target='_Blank'><IoLogoLinkedin /></a>
             </div>
             </div>
 
