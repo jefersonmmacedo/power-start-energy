@@ -66,3 +66,15 @@
     color: var(--White);
     padding: 20px;
    }
+
+
+   @media(max-width:600px) {
+    .Footer .top .image a img {
+      height: 30px;
+    }
+
+    .Footer .copy{
+    text-align: center;
+     }
+  
+   }
